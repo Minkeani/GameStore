@@ -1,0 +1,28 @@
+.footer {
+    height: 80px;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    border-top: 1px solid gray
+}
+
+.wrapper__footer {
+    display: flex;
+    margin: 20px;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wrapper__footer div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column
+}
+.wrapper__footer div  a{
+    color: #ffffff;
+    background-color: #6c757d;
+    border: none;
+}

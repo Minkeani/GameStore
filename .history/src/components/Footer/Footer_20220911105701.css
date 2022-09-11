@@ -1,0 +1,17 @@
+.footer {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    flex-decoration: column;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    border-top: 1px solid gray
+}
+
+.wrapper__footer {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: space-between;
+
+}
