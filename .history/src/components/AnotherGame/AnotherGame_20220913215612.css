@@ -1,0 +1,16 @@
+.swiper-container {
+    margin-top: 50px;
+}
+
+.mySwiper {
+    min-height: 400px;
+}
+
+@media screen and (max-width: 640px) {
+    .swiper-wrapper { 
+        flex-direction: column
+    }
+    .swiper-item {
+        margin-top: 10px
+    }
+}

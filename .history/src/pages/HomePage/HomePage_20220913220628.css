@@ -1,0 +1,14 @@
+.container-home {
+    display: flex;
+    flex-direction: column
+}
+
+.home-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    height: 100%;
+    flex-wrap: wrap;
+}

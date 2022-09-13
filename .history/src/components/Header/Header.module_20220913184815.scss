@@ -1,0 +1,101 @@
+header {
+    position: fixed;
+  width: 100%;
+  margin: 0;
+  z-index: 3;
+  }
+.topnav {
+    background: transparent;
+    border-bottom: 0.5px solid white;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    transition: all ease 0.5s;
+    padding: 0;
+  }
+
+  .logo {
+    font-size: 2rem;
+  }
+
+  .favourite {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  
+  .favourite span{ 
+    font-size: 40px;
+  }
+
+  .favourite span div{ 
+    position: absolute;
+    background-color: orange;
+    border-radius: 10px;
+    padding: 3px;
+    font-size: 24px;
+    top: -20px;
+    right: -10px;
+  }
+  
+  .active {
+    text-decoration: underline;
+  }
+  
+  .topnav li {
+    display: inline-block;
+    margin: 0;
+  }
+  
+  .topnav li a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all ease 0.3s;
+  }
+  
+  .topnav li a:hover {
+    color: rgb(214, 214, 214);
+}
+  
+  .topnav .icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+  }
+  
+  .responsive {
+     transition: all ease 0.5s;
+  }
+  
+  @media screen and (max-width: 640px) {
+    .topnav li:not(:first-child) {
+      display: none;
+    }
+    ul.topnav li.icon {
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 640px) {
+    ul.topnav.responsive {
+      position: relative;
+    }
+    ul.topnav.responsive li.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    ul.topnav.responsive li,
+    ul.topnav.responsive li a {
+      display: block;
+      text-align: left;
+    }
+  }

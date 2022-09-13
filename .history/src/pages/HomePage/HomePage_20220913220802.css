@@ -1,0 +1,16 @@
+.container-home {
+    display: flex;
+    flex-direction: column
+}
+
+.home-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.container-home button{
+    width: 50%;
+}

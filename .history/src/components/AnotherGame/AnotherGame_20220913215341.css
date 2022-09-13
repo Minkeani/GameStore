@@ -1,0 +1,13 @@
+.swiper-container {
+    margin-top: 50px;
+}
+
+.mySwiper {
+    min-height: 400px;
+}
+
+@media screen and (max-width: 640px) {
+    .mySwiper { 
+        flex-direction: column
+    }
+}
